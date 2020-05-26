@@ -63,6 +63,7 @@ class ActivityStore {
         runInAction("get activity error", () => {
           this.loadingInitial = false;
         });
+        console.log("ActivityStore -> @actionloadActivity -> error", error)
       }
     }
   };
