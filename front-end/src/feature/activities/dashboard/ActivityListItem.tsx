@@ -1,8 +1,9 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Item, Button, Segment, Icon } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 // import ActivityStore from "../../../app/stores/activityStore";
 import { IActivity } from "../../../app/models/activity";
+import {format} from 'date-fns';
 
 const ActivityListItem: React.FC<{ activity: IActivity }> = ({ activity }) => {
   // const activityStore = useContext(ActivityStore);
@@ -27,7 +28,7 @@ const ActivityListItem: React.FC<{ activity: IActivity }> = ({ activity }) => {
         </Item.Group>
       </Segment>
       <Segment>
-        <Icon name="clock" /> {activity.date}
+        <Icon name="clock" /> {format(activity.date, 'h:mm a')}
         <Icon name="marker" /> {activity.venue}, {activity.address}
       </Segment>
       <Segment secondary>Attendees</Segment>
