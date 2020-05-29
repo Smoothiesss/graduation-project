@@ -55,3 +55,9 @@ D:\GraduationProject\API\bin\Debug\netcoreapp3.1\FluentValidation.dll
 D:\GraduationProject\API\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 D:\GraduationProject\API\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 D:\GraduationProject\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cs
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\API.StaticWebAssets.xml
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
