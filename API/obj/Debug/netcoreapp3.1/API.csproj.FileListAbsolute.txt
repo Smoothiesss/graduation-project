@@ -61,3 +61,12 @@ D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.U
 D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
 D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
 D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Infrastructure.dll
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\GraduationProject\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

@@ -1,0 +1,13 @@
+D:\GraduationProject\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+D:\GraduationProject\Application\bin\Debug\netcoreapp3.1\Application.dll
+D:\GraduationProject\Application\bin\Debug\netcoreapp3.1\Application.pdb
+D:\GraduationProject\Application\bin\Debug\netcoreapp3.1\Domain.dll
+D:\GraduationProject\Application\bin\Debug\netcoreapp3.1\Persistence.dll
+D:\GraduationProject\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\GraduationProject\Application\bin\Debug\netcoreapp3.1\Persistence.pdb
+D:\GraduationProject\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+D:\GraduationProject\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+D:\GraduationProject\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+D:\GraduationProject\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+D:\GraduationProject\Application\obj\Debug\netcoreapp3.1\Application.dll
+D:\GraduationProject\Application\obj\Debug\netcoreapp3.1\Application.pdb
