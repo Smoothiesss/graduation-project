@@ -3,17 +3,19 @@ import { Grid, GridColumn } from "semantic-ui-react";
 import ActivityList  from "./ActivityList";
 import { observer } from "mobx-react-lite";
 import { LoadingComponent } from "../../../app/layout/LoadingComponent";
-import ActivityStore from "../../../app/stores/activityStore";
+// import ActivityStore from "../../../app/stores/activityStore";
+import { RootStoreContext } from "../../../app/stores/rootStore";
 
 const ActivityDashboard: React.FC = () => {
-  const activityStore = useContext(ActivityStore);
+  const rootStore = useContext(RootStoreContext);
+  const {loadActivities, loadingInitial} = rootStore.activityStore;
 
   useEffect(() => {
     //like componentDidMount
-    activityStore.loadActivities();
-  }, [activityStore]); // empty array to stop useEffect
+    loadActivities();
+  }, [loadActivities]); // empty array to stop useEffect
 
-  if (activityStore.loadingInitial) return <LoadingComponent />;
+  if (loadingInitial) return <LoadingComponent />;
 
   return (
     <Grid>
