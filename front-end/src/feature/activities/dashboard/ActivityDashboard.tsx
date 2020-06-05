@@ -22,7 +22,7 @@ const ActivityDashboard: React.FC = () => {
       <GridColumn width={10}>
         <ActivityList/>
       </GridColumn>
-      <GridColumn width={6}>
+      <GridColumn width={7}>
         <h2>Activity filters</h2>
         {/* {activity && !editMode && (
           <ActivityDetail/>
