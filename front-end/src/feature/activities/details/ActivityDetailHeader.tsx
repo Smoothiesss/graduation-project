@@ -18,7 +18,7 @@ const activityImageTextStyle = {
   color: 'white'
 };
 
-const ActivityDetailHeader: React.FC<{activity: IActivity}> = ({activity}) => {
+const ActivityDetailHeader: React.FC<{activity: IActivity}> = ({activity}) => {  
     return (
             <Segment.Group>
               <Segment basic attached='top' style={{ padding: '0' }}>

@@ -1,0 +1,20 @@
+.layout-page {
+    display: flex;
+    overflow: hidden;
+    flex: 1;
+    .admin-page {
+      display: flex;
+      overflow: hidden;
+      flex: 1;
+    }
+    .front-end {
+      background-image: linear-gradient(to right bottom, #3452e3, #007df8, #00a1ff, #2dc1ff, #82deff);
+      border-bottom: 0;
+    }
+  
+  
+  }
+  body {
+    overflow: hidden;
+  }
+  
