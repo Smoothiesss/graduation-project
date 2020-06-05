@@ -11,3 +11,17 @@ D:\GraduationProject\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInf
 D:\GraduationProject\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
 D:\GraduationProject\Application\obj\Debug\netcoreapp3.1\Application.dll
 D:\GraduationProject\Application\obj\Debug\netcoreapp3.1\Application.pdb
+E:\graduation-project\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+E:\graduation-project\Application\bin\Debug\netcoreapp3.1\Application.dll
+E:\graduation-project\Application\bin\Debug\netcoreapp3.1\Application.pdb
+E:\graduation-project\Application\bin\Debug\netcoreapp3.1\Domain.dll
+E:\graduation-project\Application\bin\Debug\netcoreapp3.1\Persistence.dll
+E:\graduation-project\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+E:\graduation-project\Application\bin\Debug\netcoreapp3.1\Persistence.pdb
+E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.dll
+E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.pdb

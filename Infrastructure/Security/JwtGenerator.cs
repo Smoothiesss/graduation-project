@@ -29,7 +29,7 @@ namespace Infrastructure.Security
 
             var tokenDescriptior = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(claims),
+                Subject = new ClaimsIdentity(claims, "jwt"),
                 Expires = DateTime.Now.AddDays(7),
                 SigningCredentials = creds
             };

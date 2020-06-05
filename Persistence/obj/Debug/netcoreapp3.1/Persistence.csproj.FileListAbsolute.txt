@@ -9,3 +9,15 @@ D:\GraduationProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInf
 D:\GraduationProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CopyComplete
 D:\GraduationProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.dll
 D:\GraduationProject\Persistence\obj\Debug\netcoreapp3.1\Persistence.pdb
+E:\graduation-project\Persistence\bin\Debug\netcoreapp3.1\Persistence.deps.json
+E:\graduation-project\Persistence\bin\Debug\netcoreapp3.1\Persistence.dll
+E:\graduation-project\Persistence\bin\Debug\netcoreapp3.1\Persistence.pdb
+E:\graduation-project\Persistence\bin\Debug\netcoreapp3.1\Domain.dll
+E:\graduation-project\Persistence\bin\Debug\netcoreapp3.1\Domain.pdb
+E:\graduation-project\Persistence\obj\Debug\netcoreapp3.1\Persistence.csprojAssemblyReference.cache
+E:\graduation-project\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CoreCompileInputs.cache
+E:\graduation-project\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfoInputs.cache
+E:\graduation-project\Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfo.cs
+E:\graduation-project\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CopyComplete
+E:\graduation-project\Persistence\obj\Debug\netcoreapp3.1\Persistence.dll
+E:\graduation-project\Persistence\obj\Debug\netcoreapp3.1\Persistence.pdb

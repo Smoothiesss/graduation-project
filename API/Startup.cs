@@ -28,6 +28,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Persistence;
+using System.Diagnostics;
 
 namespace API
 {
@@ -77,9 +78,9 @@ namespace API
                 });
             });
             services.AddTransient<IAuthorizationHandler, IsHostRequirementHandler>();
-
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["TokenKey"]));
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            Console.WriteLine("key" + key);
+            AuthenticationBuilder authenticationBuilder = services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(opt =>
                 {
                     opt.TokenValidationParameters = new TokenValidationParameters
