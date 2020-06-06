@@ -16,7 +16,7 @@ class FrontEndRoute extends Component {
                     render={(props) => {
                         return (
                             <div style={{ height: '100%', display: 'flex', flexDirection: 'column' }} className="container">
-                                <BaseComponent />
+                                <BaseComponent {...props} />
                             </div>
                         )
                     }}
