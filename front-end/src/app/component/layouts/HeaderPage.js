@@ -33,7 +33,7 @@ export default class HeaderPage extends React.Component {
                     altActived = 'gioi-thieu'
                     break;
                 case '/thong-tin-chia-se':
-                    altActived = 'thong-tin-chia-se'
+                    altActived = 'thong-tin'
                     break;
                 case '/tin-tuc':
                     altActived = 'tin-tuc'
@@ -60,7 +60,7 @@ export default class HeaderPage extends React.Component {
                 altActived = 'gioi-thieu'
                 break;
             case '/thong-tin-chia-se':
-                altActived = 'thong-tin-chia-se'
+                altActived = 'thong-tin'
                 break;
             case '/tin-tuc':
                 altActived = 'tin-tuc'
@@ -128,8 +128,6 @@ export default class HeaderPage extends React.Component {
     }
 
     render() {
-        console.log(this.state.altActived)
-
         return (
             <div className="header-content">
                 <div style={{
