@@ -22,6 +22,34 @@ export default class HeaderPage extends React.Component {
         }
     }
 
+    componentWillReceiveProps(nextProps){
+        let altActived = ''
+        if(_.get(this.props.location, 'pathname')!= _.get(nextProps.location, 'pathname')){
+            switch (_.get(nextProps.location, 'pathname')) {
+                case '/dashboard':
+                    altActived = 'trang-chu'
+                    break;
+                case '/gioi-thieu':
+                    altActived = 'gioi-thieu'
+                    break;
+                case '/thong-tin-chia-se':
+                    altActived = 'thong-tin-chia-se'
+                    break;
+                case '/tin-tuc':
+                    altActived = 'tin-tuc'
+                    break;
+                case '/login':
+                    altActived = 'login'
+                    break;
+                default:
+                    altActived = '';
+            }
+            this.setState({
+                altActived: altActived ? altActived : ''
+            })
+        }
+    }
+
     componentDidMount() {
         let altActived = ''
         switch (_.get(this.props.location, 'pathname')) {
@@ -43,7 +71,6 @@ export default class HeaderPage extends React.Component {
             default:
                 altActived = '';
         }
-        console.log('abc')
         this.setState({
             altActived: altActived ? altActived : ''
         })
