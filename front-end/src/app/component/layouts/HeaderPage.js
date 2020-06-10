@@ -13,15 +13,40 @@ import ThongTin from '../images/icon_thongtin.svg';
 import ThongTinv2 from '../images/icon_thongtin_v2.svg';
 import Person from '../images/icon_person.svg';
 import Personv2 from '../images/icon_person_v2.svg';
-const { Header, Content, Footer } = Layout;
-
+import _ from 'lodash'
 export default class HeaderPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            altActived: this.props.altActived ?  this.props.altActived : "trang-chu"
-
+            altActived: this.props.altActived ? this.props.altActived : ""
         }
+    }
+
+    componentDidMount() {
+        let altActived = ''
+        switch (_.get(this.props.location, 'pathname')) {
+            case '/dashboard':
+                altActived = 'trang-chu'
+                break;
+            case '/gioi-thieu':
+                altActived = 'gioi-thieu'
+                break;
+            case '/thong-tin-chia-se':
+                altActived = 'thong-tin-chia-se'
+                break;
+            case '/tin-tuc':
+                altActived = 'tin-tuc'
+                break;
+            case '/login':
+                altActived = 'login'
+                break;
+            default:
+                altActived = '';
+        }
+        console.log('abc')
+        this.setState({
+            altActived: altActived ? altActived : ''
+        })
     }
 
     renderLogo = () => {
@@ -69,7 +94,14 @@ export default class HeaderPage extends React.Component {
         return element;
     }
 
+    handleClickLogin() {
+        this.setState({
+            altActived: 'login'
+        })
+    }
+
     render() {
+        console.log(this.state.altActived)
 
         return (
             <div className="header-content">
@@ -86,7 +118,7 @@ export default class HeaderPage extends React.Component {
                     <div className="logo" >
                         {this.renderLogo()}
                     </div>
-                    <div className="menubar" style={{position: "relative"}}>
+                    <div className="menubar" style={{ position: "relative" }}>
 
                         {this.logoMenu("Trang chủ", Home, Homev2, "trang-chu", "#")}
                         {this.logoMenu("Giới thiệu", GioiThieu, GioiThieuv2, "gioi-thieu", "/gioi-thieu")}
@@ -106,7 +138,9 @@ export default class HeaderPage extends React.Component {
                         } */}
                         {
                             !this.props.isAuthenticated &&
-                            <a className={`logo-user`} href="#/login"
+                            <a className={'box-menu-trang-chu ' + (this.state.altActived === 'login' ? 'actived' : '')}
+                                onClick={() => this.handleClickLogin()} 
+                                href="#/login"
                                 style={{
                                     position: 'absolute',
                                     right: '1px',
@@ -115,7 +149,8 @@ export default class HeaderPage extends React.Component {
                                 }}
                                 title="Đăng nhập"
                             >
-                                <span>
+                                <div >
+                                    
                                     <img className={"img-blue"} src={Person} alt="123"
                                         style={{
                                             height: '22px',
@@ -128,19 +163,20 @@ export default class HeaderPage extends React.Component {
                                             width: '22px'
                                         }}
                                     />
-                                </span>
+                                    <span className={'title'}style={{ marginLeft: 5 }}>Đăng nhập</span>
+                                </div>
                             </a>
                         }
                         {
                             this.props.isAuthenticated &&
                             <a className={`logo-user`}
-                               style={{
-                                   position: 'absolute',
-                                   right: '1px',
-                                   alignSelf: 'center',
-                                   marginRight: 5
-                               }}
-                               title="Đăng xuất"
+                                style={{
+                                    position: 'absolute',
+                                    right: '1px',
+                                    alignSelf: 'center',
+                                    marginRight: 5
+                                }}
+                                title="Đăng xuất"
                             >
                                 <div
                                     onClick={() => this.onLogout()}
@@ -149,7 +185,7 @@ export default class HeaderPage extends React.Component {
                                         color: '#0094E8',
                                         fontSize: '22px'
                                     }}>
-                                    <i className="fa fa-sign-in" style={{ }}></i>
+                                    <i className="fa fa-sign-in" style={{}}></i>
                                 </div>
                             </a>
                         }

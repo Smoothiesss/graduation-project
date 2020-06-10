@@ -7,9 +7,16 @@ interface IProps {
     text?: string
 }
 
-const ErrorMessage: React.FC<IProps> = ({error, text}) => {
+const ErrorMessage: React.FC<IProps> = ({ error, text }) => {
     return (
-        <Message error>
+        <Message style={{
+            display: 'flex',
+            fontSize: 11,
+            padding: '10px 20px',
+            height: 40,
+            flexDirection: 'column',
+            justifyContent: 'center'
+        }} error>
             <Message.Header>{error.statusText}</Message.Header>
             {error.data && Object.keys(error.data.errors).length > 0 && (
                 <Message.List>
@@ -18,7 +25,7 @@ const ErrorMessage: React.FC<IProps> = ({error, text}) => {
                     ))}
                 </Message.List>
             )}
-            {text && <Message.Content content={text}/>}
+            {text && <Message.Content content={text} />}
         </Message>
     )
 }

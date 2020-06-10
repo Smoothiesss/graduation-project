@@ -15,7 +15,7 @@ class FrontEndLayout extends Component {
                 <div style={{
                     position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, display: 'flex', flexDirection: 'column'
                 }}>
-                    <Header/>
+                    <Header {...this.props}/>
                     <div style={{
                         flex: 1, overflow: 'auto', display: 'flex', flexDirection: 'column'
                     }}>
