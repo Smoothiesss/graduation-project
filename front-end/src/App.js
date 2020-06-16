@@ -11,13 +11,12 @@ import Loading from './app/component/page/Loading';
 
 const App = () => {
     const rootStore = useContext(RootStoreContext);
-    console.log(rootStore)
     const { setAppLoaded, token, appLoaded } = rootStore.commonStore;
     const { getUser } = rootStore.userStore;
 
     useEffect(() => {
         if (token) {
-            
+
             getUser().finally(() => setAppLoaded())
         } else {
             setAppLoaded()
@@ -31,7 +30,7 @@ const App = () => {
             <ToastContainer position='top-right' />
             <Provider store={appStore}>
                 <Router>
-                    <Route path="/" component={FrontEndLayout} />
+                    <Route path="/" render={FrontEndLayout} />
                 </Router>
             </Provider>
         </Fragment>

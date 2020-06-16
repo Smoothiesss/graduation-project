@@ -45,13 +45,14 @@ const LoginForm = () => {
               name="email"
               type="email"
               component={TextInput}
-              placeholder="Email..."
+              placeholder="Email"
+
             />
             <Field
               type="password"
               name="password"
               component={TextInput}
-              placeholder="Password..."
+              placeholder="Password"
             />
             {submitError && !dirtySinceLastSubmit && (
               <div style={{ marginTop: 0, marginBottom: 10 }}>

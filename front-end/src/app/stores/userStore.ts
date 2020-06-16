@@ -24,7 +24,6 @@ export default class UserStore {
         this.user = user;
       });
       if (user) {
-        console.log(user)
         toast.success('Đăng nhập thành công');
         this.rootStore.commonStore.setToken(user.token);
         this.rootStore.modalStore.closeModal();
@@ -54,6 +53,7 @@ export default class UserStore {
   @action getUser = async () => {
     try {
       const user = await agent.User.current();
+      store.dispatch(loginSuccessFull(user));
       runInAction(() => {
         this.user = user;
       });

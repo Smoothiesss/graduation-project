@@ -2,6 +2,7 @@ import 'antd/dist/antd.css';
 import _ from 'lodash';
 import React from "react";
 import { connect } from 'react-redux';
+import { Logout } from '../func/Logout';
 import Entypo from '../images/entypo_news.svg';
 import EntypoV2 from '../images/entypo_newsV2.svg';
 import Home from '../images/home.svg';
@@ -14,6 +15,7 @@ import ThongTin from '../images/icon_thongtin.svg';
 import ThongTinv2 from '../images/icon_thongtin_v2.svg';
 import logo from '../images/logo.png';
 import '../style/header.scss';
+import { toast } from 'react-toastify';
 
 const mapStateToProps = (state) => {
     return {
@@ -28,7 +30,6 @@ class HeaderPage extends React.Component {
         this.state = {
             altActived: this.props.altActived ? this.props.altActived : ""
         }
-        console.log(this.props)
     }
 
 
@@ -137,8 +138,16 @@ class HeaderPage extends React.Component {
         })
     }
 
+    onLogout() {
+        window.localStorage.removeItem('jwt')
+        window.localStorage.clear()
+        toast.info('Bạn đã đăng xuất')
+        window.location.replace('/')
+
+    }
+
+
     render() {
-        console.log(window.localStorage.getItem('jwt'))
         return (
             <div className="header-content">
                 <div style={{
@@ -221,7 +230,7 @@ class HeaderPage extends React.Component {
                                         color: '#0094E8',
                                         fontSize: '22px'
                                     }}>
-                                    <span className={'title'} style={{ marginRight: 5, fontSize: 20}}>{this.props.authData.authData.displayName}</span>
+                                    <span className={'title'} style={{ marginRight: 5, fontSize: 20 }}>{this.props.authData.authData.displayName}</span>
                                     <i className="fa fa-sign-in" style={{}}></i>
                                 </div>
                             </a>
@@ -234,3 +243,4 @@ class HeaderPage extends React.Component {
 }
 
 export default connect(mapStateToProps)(HeaderPage);
+
