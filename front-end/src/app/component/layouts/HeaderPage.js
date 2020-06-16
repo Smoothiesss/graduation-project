@@ -1,30 +1,40 @@
-import React from 'react';
-import { Layout, Menu, Breadcrumb } from 'antd';
 import 'antd/dist/antd.css';
-import logo from '../images/logo.png'
-import '../style/header.scss'
-import Home from '../images/home.svg';
-import Homev2 from '../images/home_v2.svg';
+import _ from 'lodash';
+import React from "react";
+import { connect } from 'react-redux';
 import Entypo from '../images/entypo_news.svg';
 import EntypoV2 from '../images/entypo_newsV2.svg';
+import Home from '../images/home.svg';
+import Homev2 from '../images/home_v2.svg';
 import GioiThieu from '../images/icon_gioithieu.svg';
 import GioiThieuv2 from '../images/icon_gioithieu_v2.svg';
-import ThongTin from '../images/icon_thongtin.svg';
-import ThongTinv2 from '../images/icon_thongtin_v2.svg';
 import Person from '../images/icon_person.svg';
 import Personv2 from '../images/icon_person_v2.svg';
-import _ from 'lodash'
-export default class HeaderPage extends React.Component {
+import ThongTin from '../images/icon_thongtin.svg';
+import ThongTinv2 from '../images/icon_thongtin_v2.svg';
+import logo from '../images/logo.png';
+import '../style/header.scss';
+
+const mapStateToProps = (state) => {
+    return {
+        isAuthenticated: state.root.isAuthenticated,
+        authData: state.root.authData,
+    };
+};
+
+class HeaderPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             altActived: this.props.altActived ? this.props.altActived : ""
         }
+        console.log(this.props)
     }
 
-    componentWillReceiveProps(nextProps){
+
+    componentWillReceiveProps(nextProps) {
         let altActived = ''
-        if(_.get(this.props.location, 'pathname')!= _.get(nextProps.location, 'pathname')){
+        if (_.get(this.props.location, 'pathname') != _.get(nextProps.location, 'pathname')) {
             switch (_.get(nextProps.location, 'pathname')) {
                 case '/dashboard':
                     altActived = 'trang-chu'
@@ -128,6 +138,7 @@ export default class HeaderPage extends React.Component {
     }
 
     render() {
+        console.log(window.localStorage.getItem('jwt'))
         return (
             <div className="header-content">
                 <div style={{
@@ -164,7 +175,7 @@ export default class HeaderPage extends React.Component {
                         {
                             !this.props.isAuthenticated &&
                             <a className={'box-menu-trang-chu ' + (this.state.altActived === 'login' ? 'actived' : '')}
-                                onClick={() => this.handleClickLogin()} 
+                                onClick={() => this.handleClickLogin()}
                                 href="#/login"
                                 style={{
                                     position: 'absolute',
@@ -175,7 +186,7 @@ export default class HeaderPage extends React.Component {
                                 title="Đăng nhập"
                             >
                                 <div >
-                                    
+
                                     <img className={"img-blue"} src={Person} alt="123"
                                         style={{
                                             height: '22px',
@@ -188,7 +199,7 @@ export default class HeaderPage extends React.Component {
                                             width: '22px'
                                         }}
                                     />
-                                    <span className={'title'}style={{ marginLeft: 5 }}>Đăng nhập</span>
+                                    <span className={'title'} style={{ marginLeft: 5 }}>Đăng nhập</span>
                                 </div>
                             </a>
                         }
@@ -210,6 +221,7 @@ export default class HeaderPage extends React.Component {
                                         color: '#0094E8',
                                         fontSize: '22px'
                                     }}>
+                                    <span className={'title'} style={{ marginRight: 5, fontSize: 20}}>{this.props.authData.authData.displayName}</span>
                                     <i className="fa fa-sign-in" style={{}}></i>
                                 </div>
                             </a>
@@ -220,3 +232,5 @@ export default class HeaderPage extends React.Component {
         )
     }
 }
+
+export default connect(mapStateToProps)(HeaderPage);

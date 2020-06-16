@@ -24,6 +24,7 @@ const LoginForm = () => {
           [FORM_ERROR]: error,
         }))
       }
+    
       validate={validate}
       render={({
         handleSubmit,
@@ -33,7 +34,7 @@ const LoginForm = () => {
         pristine,
         dirtySinceLastSubmit,
       }) => (
-          <Form style={{  width: 700, margin: '5% auto auto auto' }} onSubmit={handleSubmit} error>
+          <Form style={{ width: 700, margin: '5% auto auto auto' }} onSubmit={handleSubmit} error>
             <Header
               as="h2"
               content="Login"

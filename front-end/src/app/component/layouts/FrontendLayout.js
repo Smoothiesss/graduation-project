@@ -19,7 +19,7 @@ class FrontEndLayout extends Component {
                     <div style={{
                         flex: 1, overflow: 'auto', display: 'flex', flexDirection: 'column'
                     }}>
-                        <FrontEndRoute />
+                        <FrontEndRoute  {...this.props}/>
                     </div>
                     <Footer />
 

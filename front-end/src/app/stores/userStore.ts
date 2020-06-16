@@ -1,9 +1,11 @@
-import { observable, computed, action, runInAction } from "mobx";
-import { IUser, IUserFormValues } from "../models/user";
-import agent from "../api/agent";
-import { RootStore } from "./rootStore";
+import { action, computed, observable, runInAction } from "mobx";
+import { loginSuccessFull } from "../../application/actions/appAction";
+import store from '../../AppStore';
 import history from "../../history";
-
+import agent from "../api/agent";
+import { IUser, IUserFormValues } from "../models/user";
+import { RootStore } from "./rootStore";
+import { toast } from "react-toastify";
 export default class UserStore {
   rootStore: RootStore;
   constructor(rootStore: RootStore) {
@@ -21,9 +23,18 @@ export default class UserStore {
       runInAction(() => {
         this.user = user;
       });
-      this.rootStore.commonStore.setToken(user.token);
-      this.rootStore.modalStore.closeModal();
-      history.push("/activities");
+      if (user) {
+        console.log(user)
+        toast.success('Đăng nhập thành công');
+        this.rootStore.commonStore.setToken(user.token);
+        this.rootStore.modalStore.closeModal();
+        store.dispatch(loginSuccessFull(user));
+      }
+      setTimeout(() => {
+        history.push("/#/dashboard");
+        window.location.reload();
+      }, 1000)
+
     } catch (error) {
       throw error;
     }
