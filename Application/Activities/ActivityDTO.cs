@@ -21,6 +21,6 @@ namespace Application.Activities
 
 
         [JsonPropertyName("attendees")]
-        public ICollection<AttendeeDTO> UserActivites { get; set;}
+        public ICollection<AttendeeDTO> UserActivities { get; set;}
     }
 }

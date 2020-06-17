@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\graduation-project\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\graduation-project\\Application\\Application.csproj": {
+    "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\graduation-project\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "E:\\graduation-project\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\graduation-project\\Application\\obj\\",
+        "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\ngquo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngquo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\graduation-project\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\graduation-project\\Domain\\Domain.csproj"
+              "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj"
               },
-              "E:\\graduation-project\\Persistence\\Persistence.csproj": {
-                "projectPath": "E:\\graduation-project\\Persistence\\Persistence.csproj"
+              "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -76,24 +76,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\graduation-project\\Domain\\Domain.csproj": {
+    "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\graduation-project\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\graduation-project\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\graduation-project\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\ngquo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngquo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -137,24 +137,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\graduation-project\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\graduation-project\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "E:\\graduation-project\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\graduation-project\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ngquo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngquo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -167,8 +167,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\graduation-project\\Application\\Application.csproj": {
-                "projectPath": "E:\\graduation-project\\Application\\Application.csproj"
+              "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\Application.csproj"
               }
             }
           }
@@ -202,24 +202,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\graduation-project\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\graduation-project\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "E:\\graduation-project\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\graduation-project\\Persistence\\obj\\",
+        "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\ngquo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngquo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -232,8 +232,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\graduation-project\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\graduation-project\\Domain\\Domain.csproj"
+              "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj"
               }
             }
           }
@@ -275,7 +275,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

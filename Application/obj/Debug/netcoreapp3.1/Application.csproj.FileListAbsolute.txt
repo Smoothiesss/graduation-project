@@ -25,3 +25,16 @@ E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.AssemblyIn
 E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
 E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.dll
 E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.pdb
+C:\Users\ngquo\Documents\GitHub\graduation-project\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+C:\Users\ngquo\Documents\GitHub\graduation-project\Application\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\ngquo\Documents\GitHub\graduation-project\Application\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\ngquo\Documents\GitHub\graduation-project\Application\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\ngquo\Documents\GitHub\graduation-project\Application\bin\Debug\netcoreapp3.1\Persistence.dll
+C:\Users\ngquo\Documents\GitHub\graduation-project\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\ngquo\Documents\GitHub\graduation-project\Application\bin\Debug\netcoreapp3.1\Persistence.pdb
+C:\Users\ngquo\Documents\GitHub\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+C:\Users\ngquo\Documents\GitHub\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+C:\Users\ngquo\Documents\GitHub\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+C:\Users\ngquo\Documents\GitHub\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+C:\Users\ngquo\Documents\GitHub\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.dll
+C:\Users\ngquo\Documents\GitHub\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.pdb

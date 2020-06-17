@@ -15,3 +15,11 @@ E:\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.c
 E:\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
 E:\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 E:\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\ngquo\Documents\GitHub\graduation-project\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\ngquo\Documents\GitHub\graduation-project\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\ngquo\Documents\GitHub\graduation-project\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\ngquo\Documents\GitHub\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Users\ngquo\Documents\GitHub\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\ngquo\Documents\GitHub\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\ngquo\Documents\GitHub\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\ngquo\Documents\GitHub\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

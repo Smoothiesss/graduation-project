@@ -742,23 +742,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\ngquo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\graduation-project\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "E:\\graduation-project\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\graduation-project\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\ngquo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ngquo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -802,7 +802,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
