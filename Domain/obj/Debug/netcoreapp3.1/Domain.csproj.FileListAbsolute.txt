@@ -10,7 +10,6 @@ E:\graduation-project\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
 E:\graduation-project\Domain\bin\Debug\netcoreapp3.1\Domain.dll
 E:\graduation-project\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
 E:\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
-E:\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 E:\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
 E:\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
 E:\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.dll
@@ -23,3 +22,4 @@ C:\Users\ngquo\Documents\GitHub\graduation-project\Domain\obj\Debug\netcoreapp3.
 C:\Users\ngquo\Documents\GitHub\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
 C:\Users\ngquo\Documents\GitHub\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Users\ngquo\Documents\GitHub\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+E:\graduation-project\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache

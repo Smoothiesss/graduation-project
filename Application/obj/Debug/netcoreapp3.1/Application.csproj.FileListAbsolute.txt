@@ -19,7 +19,6 @@ E:\graduation-project\Application\bin\Debug\netcoreapp3.1\Persistence.dll
 E:\graduation-project\Application\bin\Debug\netcoreapp3.1\Domain.pdb
 E:\graduation-project\Application\bin\Debug\netcoreapp3.1\Persistence.pdb
 E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
-E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
 E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
 E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
 E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
@@ -38,3 +37,4 @@ C:\Users\ngquo\Documents\GitHub\graduation-project\Application\obj\Debug\netcore
 C:\Users\ngquo\Documents\GitHub\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
 C:\Users\ngquo\Documents\GitHub\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.dll
 C:\Users\ngquo\Documents\GitHub\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.pdb
+E:\graduation-project\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
