@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import FrontEndRoute from '../../../FrontEndRoute';
-import Footer from '../layouts/Footer';
-import Header from '../layouts/HeaderPage';
+import Footer from './Footer';
+import Header from './HeaderPage';
 
-const FrontEndLayout = (props) => {
+const PublicLayouts = (props) => {
     return (
         <div style={{
             flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden',
@@ -21,11 +21,10 @@ const FrontEndLayout = (props) => {
                     <FrontEndRoute  {...props} />
                 </div>
                 <Footer />
-
             </div>
         </div>
     )
 }
 
 
-export default FrontEndLayout;
+export default PublicLayouts;

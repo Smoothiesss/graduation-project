@@ -1,12 +1,12 @@
 import React, { Component, Suspense } from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
-import { HomeRoutes } from './routes';
+import { AppRoutes } from './routes';
 import Loading from './app/component/page/Loading'
 import LoginForm from './feature/user/LoginForm'
 
 class FrontEndRoute extends Component {
     getRoute = () => {
-        return HomeRoutes.map((route, index) => {
+        return AppRoutes.map((route, index) => {
             const { id, component: BaseComponent, exact, fullScreen } = route;
             return (
                 <Route
@@ -30,15 +30,7 @@ class FrontEndRoute extends Component {
         return (
             <Suspense fallback={<Loading />}>
                 <Switch>
-                    <Redirect from="/" to="/dashboard" exact />
-                    {/* <Route path="/login"
-                        render={(props) => {
-                            return (
-                                <LoginForm  {...props} />
-                            )
-                        }
-                        }
-                        exact={true} /> */}
+                    {/* <Redirect from="/" to="/dashboard" exact />                     */}
                     {routes}
                 </Switch>
 

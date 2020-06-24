@@ -1,0 +1,22 @@
+{
+    "--main-font-family-custom": "normal 13px/20px lato",
+    "--main-color": "#0088fe",
+    "--main-background-color": "#fff",
+    "--background-header": "transparent",
+    "--background-footer": "#eeeeee",
+    "--color-footer": "#333",
+    "--background-side-menu": "#fff",
+    "--color-side-menu": "#222",
+    "--color-active-side-menu": "#046db3",
+    "--background-active-side-menu": "#e6f7ff",
+    "--color-icon-side-menu": "#222",
+    "--color-header": "#fff",
+    "--background-ag-header": "rgba(202, 240, 238, 0.4)",
+    "--main-background-header": "linear-gradient(to right, #046db3 0%, #1696cf 60%, #20aade 100%)",
+    "--color-ag-header": "#025b80",
+    "--background-ag-row-level-0": "linear-gradient(87deg, #1078ef 0, #11cdef 100%)",
+    "--background-ag-row-level-1": "linear-gradient(87deg, #f05b38 0, #e47150 100%)",
+    "--background-ag-row-level-2": "linear-gradient(87deg, #8d5ecc, #fd5a7a 100%)",
+    "--background-ag-row-level-3": "linear-gradient(87deg, #33c386 0, #61eabc 100%)",
+    "--main-input-line-height": "32px"
+  }

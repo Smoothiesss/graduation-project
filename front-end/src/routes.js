@@ -1,6 +1,10 @@
 import React, { lazy } from 'react';
-import { frontEndRoutes } from './app/component/config/FrontendConfig';
+import { publicRoutes, appRoutes } from './app/component/config/FrontendConfig';
 
 export const HomeRoutes = [
-  ...frontEndRoutes,
+  ...publicRoutes,
+];
+
+export const AppRoutes = [
+  ...appRoutes,
 ];
