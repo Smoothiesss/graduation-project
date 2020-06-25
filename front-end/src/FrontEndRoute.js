@@ -31,14 +31,15 @@ class FrontEndRoute extends Component {
             <Suspense fallback={<Loading />}>
                 <Switch>
                     <Redirect from="/" to="/dashboard" exact />
-                    {/* <Route path="/login"
+                    <Route path="/login"
                         render={(props) => {
                             return (
                                 <LoginForm  {...props} />
                             )
                         }
                         }
-                        exact={true} /> */}
+                        exact={true} />
+
                     {routes}
                 </Switch>
 

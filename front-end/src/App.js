@@ -1,14 +1,13 @@
 import { observer } from 'mobx-react-lite';
 import React, { Fragment, useContext, useEffect } from "react";
 import { Provider } from 'react-redux';
-import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
-import PublicLayouts from './app/component/layouts/PublicLayouts';
+import { HashRouter as Router, Route } from 'react-router-dom';
+import FrontEndLayout from './app/component/layouts/FrontendLayout';
 import appStore from "./AppStore";
 import ModalContainer from './app/common/modals/ModalContainer';
 import { ToastContainer } from 'react-toastify';
 import { RootStoreContext } from './app/stores/rootStore';
 import Loading from './app/component/page/Loading';
-import LayoutPage from './app/component/layouts/LayoutPage';
 
 const App = () => {
     const rootStore = useContext(RootStoreContext);
@@ -17,10 +16,12 @@ const App = () => {
 
     useEffect(() => {
         if (token) {
+
             getUser().finally(() => setAppLoaded())
         } else {
             setAppLoaded()
         }
+
     }, [getUser, setAppLoaded, token])
     if (!appLoaded) return <Loading />
     return (
@@ -29,16 +30,7 @@ const App = () => {
             <ToastContainer position='top-right' />
             <Provider store={appStore}>
                 <Router>
-                    <Switch>
-                        <Redirect from="/" to="/dashboard" exact />
-                        <Route path="/dashboard" render={PublicLayouts} exact={true} />
-                        <Route path="/gioi-thieu" render={PublicLayouts} exact={true} />
-                        <Route path="/thong-tin-chia-se" render={PublicLayouts} exact={true} />
-                        <Route path="/tin-tuc" render={PublicLayouts} exact={true} />
-                        <Route path="/login" render={PublicLayouts} exact={true} />
-                        <LayoutPage />
-                    </Switch>
-
+                    <Route path="/" render={FrontEndLayout} />
                 </Router>
             </Provider>
         </Fragment>

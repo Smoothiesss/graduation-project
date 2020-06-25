@@ -8,22 +8,17 @@ const Test = lazy(() => import('../../component/view/Test'));
 const _404 = lazy(() => import('../../component/page/404'));
 
 
-export const publicRoutes = [
+export const frontEndRoutes = [
     { id: '/dashboard', component: Dashboard, exact: true },
     { id: '/test', component: Test, exact: true },
     { id: '/gioi-thieu', component: GioiThieu, exact: true },
     { id: '/activities/:id', component: ActivityDetail},
     { id: '/login', component: LoginForm},
     { id: undefined, component: _404 },
-];
 
-export const appRoutes = [
-    { id: '/bao-cao', component: Dashboard, exact: true },
-    { id: '/phan-quyen', component: Test, exact: true },
-    { id: '/quan-tri', component: GioiThieu, exact: true },    
-    { id: undefined, component: _404 },
 ];
 
 
+export const configSideMenu = [
 
-
+]

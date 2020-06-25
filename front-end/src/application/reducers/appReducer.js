@@ -1,12 +1,10 @@
 import * as _ from "lodash";
-import { TOGGLE_SIDER, LOG_IN_SUCCESSFUL, GET_MENU_HEADER } from '../actions/appAction';
-import { act } from "react-dom/test-utils";
+import { TOGGLE_SIDER, LOG_IN_SUCCESSFUL } from '../actions/appAction';
 
 const initialState = {
-    siderCollapsed: localStorage.getItem('collapsedSideMenu') === "true" ? true : false,
+    siderCollapsed: false,
     isAuthenticated: false,
-    authData: {},
-    headerMenu: []
+    authData:{}
 };
 
 export default (state = initialState, action) => {
@@ -21,11 +19,6 @@ export default (state = initialState, action) => {
             return {
                 ...state,
                 siderCollapsed: !state.siderCollapsed
-            };
-        case GET_MENU_HEADER:
-            return {
-                ...state,
-                headerMenu: action.payload
             };
 
         default:
