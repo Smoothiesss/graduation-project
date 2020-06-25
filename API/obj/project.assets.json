@@ -2111,6 +2111,7 @@
           "Domain": "1.0.0",
           "FluentValidation.AspNetCore": "8.6.2",
           "MediatR.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.0",
           "Persistence": "1.0.0"
         },
         "compile": {
@@ -2124,7 +2125,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.0.0"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.0"
         },
         "compile": {
           "bin/placeholder/Domain.dll": {}
@@ -6990,6 +6992,7 @@
       "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 3.0.0",
+      "Microsoft.EntityFrameworkCore >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.0"
     ]
   },
@@ -7048,6 +7051,10 @@
           "Microsoft.AspNetCore.Identity.UI": {
             "target": "Package",
             "version": "[3.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[3.1.0, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",

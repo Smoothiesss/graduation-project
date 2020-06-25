@@ -16,13 +16,34 @@ import ThongTinv2 from '../images/icon_thongtin_v2.svg';
 import logo from '../images/logo.png';
 import '../style/header.scss';
 import { toast } from 'react-toastify';
-
+import BaoCao from '../images/san-xuat.svg';
+import BaoCaoV2 from '../images/san-xuat-v2.svg';
+import PheDuyet from '../images/ke-hoach.svg';
+import PheDuyetV2 from '../images/ke-hoach-v2.svg';
+import QuanTri from '../images/dieu-do.svg';
+import QuanTriV2 from '../images/dieu-do-v2.svg';
 const mapStateToProps = (state) => {
     return {
         isAuthenticated: state.root.isAuthenticated,
         authData: state.root.authData,
+        headerMenu: state.root.headerMenu
     };
 };
+
+const svgList = {
+    'BaoCao': {
+        active: BaoCao,
+        hover: BaoCaoV2
+    },
+    'PheDuyet': {
+        active: PheDuyet,
+        hover: PheDuyetV2
+    },
+    'QuanTri': {
+        active: QuanTri,
+        hover: QuanTriV2
+    }
+}
 
 class HeaderPage extends React.Component {
     constructor(props) {
@@ -30,10 +51,12 @@ class HeaderPage extends React.Component {
         this.state = {
             altActived: this.props.altActived ? this.props.altActived : ""
         }
+        console.log(this.props)
     }
 
 
     componentWillReceiveProps(nextProps) {
+        console.log(nextProps)
         let altActived = ''
         if (_.get(this.props.location, 'pathname') != _.get(nextProps.location, 'pathname')) {
             switch (_.get(nextProps.location, 'pathname')) {
@@ -51,6 +74,15 @@ class HeaderPage extends React.Component {
                     break;
                 case '/login':
                     altActived = 'login'
+                    break;
+                case '/bao-cao':
+                    altActived = 'BaoCao'
+                    break;
+                case '/phe-duyet':
+                    altActived = 'PheDuyet'
+                    break;
+                case '/quan-tri':
+                    altActived = 'QuanTri'
                     break;
                 default:
                     altActived = '';
@@ -79,6 +111,14 @@ class HeaderPage extends React.Component {
             case '/login':
                 altActived = 'login'
                 break;
+            case '/bao-cao':
+                altActived = 'BaoCao'
+                break;
+            case '/phe-duyet':
+                altActived = 'PheDuyet'
+                break;
+            case '/quan-tri':
+                altActived = 'QuanTri'
             default:
                 altActived = '';
         }
@@ -170,17 +210,16 @@ class HeaderPage extends React.Component {
                         {this.logoMenu("Chia sẻ", ThongTin, ThongTinv2, "thong-tin", "/thong-tin-chia-se")}
                         {this.logoMenu("Tin tức", Entypo, EntypoV2, "tin-tuc", "/tin-tuc")}
 
-                        {/* {
+                        {
                             this.props.headerMenu.map((item, index) => {
                                 let element = '';
-                                if (item.isShowHeader) {
-                                    if (svgList[item.domain]) {
-                                        element = this.logoMenu(item.text, svgList[item.domain].hover, svgList[item.domain].active, item.text, item.routeDefault, index)
-                                    }
-                                    return element;
+                                if (svgList[item.domain]) {
+                                    element = this.logoMenu(item.name, svgList[item.domain].active, svgList[item.domain].hover, item.domain, item.routeDefault)
                                 }
+                                console.log(element)
+                                return element;
                             })
-                        } */}
+                        }
                         {
                             !this.props.isAuthenticated &&
                             <a className={'box-menu-trang-chu ' + (this.state.altActived === 'login' ? 'actived' : '')}

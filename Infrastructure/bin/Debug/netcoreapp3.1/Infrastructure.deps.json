@@ -1232,6 +1232,7 @@
           "Domain": "1.0.0",
           "FluentValidation.AspNetCore": "8.6.2",
           "MediatR.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.0",
           "Persistence": "1.0.0"
         },
         "runtime": {
@@ -1240,7 +1241,8 @@
       },
       "Domain/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.0.0"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.0"
         },
         "runtime": {
           "Domain.dll": {}

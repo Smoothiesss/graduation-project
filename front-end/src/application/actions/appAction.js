@@ -1,6 +1,7 @@
 //constants
-export const TOGGLE_SIDER = 'menu.toggleMenu';
+export const TOGGLE_SIDER = 'root.toggleMenu';
 export const LOG_IN_SUCCESSFUL = 'root.LOG_IN_SUCCESSFUL';
+export const GET_MENU_HEADER = 'root.GET_MENU_HEADER';
 
 
 //func
@@ -18,3 +19,9 @@ export const loginSuccessFull = (authData) => {
     };
 };
 
+export const getMenuHeader = (menu) => {
+    return {
+        type: GET_MENU_HEADER,
+        payload: menu
+    };
+};
