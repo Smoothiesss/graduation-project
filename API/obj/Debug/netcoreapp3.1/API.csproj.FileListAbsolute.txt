@@ -228,3 +228,4 @@ C:\Users\ngquo\Documents\GitHub\graduation-project\API\obj\Debug\netcoreapp3.1\A
 C:\Users\ngquo\Documents\GitHub\graduation-project\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
 C:\Users\ngquo\Documents\GitHub\graduation-project\API\obj\Debug\netcoreapp3.1\API.dll
 C:\Users\ngquo\Documents\GitHub\graduation-project\API\obj\Debug\netcoreapp3.1\API.pdb
+C:\Users\ngquo\Documents\GitHub\graduation-project\API\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll

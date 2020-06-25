@@ -9,11 +9,13 @@ namespace Persistence
     {
         public DataContext(DbContextOptions options) : base(options)
         {   //constructor
+            
         }
 
         public DbSet<Value> Values { get; set; }
         public DbSet<Activity> Activities { get; set; }
         public DbSet<UserActivity> UserActivities { get; set; }
+        public DbSet<Photo> Photos { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
