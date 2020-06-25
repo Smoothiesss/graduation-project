@@ -1837,7 +1837,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.0.0"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.0"
         },
         "compile": {
           "bin/placeholder/Domain.dll": {}

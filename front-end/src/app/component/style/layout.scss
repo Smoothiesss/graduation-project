@@ -1,20 +1,25 @@
 .layout-page {
+  display: flex;
+  overflow: hidden;
+  flex: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #00b8ff, hsla(0, 0%, 87.1%, 0.36) 38.54%);
+  .admin-page {
     display: flex;
     overflow: hidden;
     flex: 1;
-    .admin-page {
-      display: flex;
-      overflow: hidden;
-      flex: 1;
-    }
-    .front-end {
-      background-image: linear-gradient(to right bottom, #3452e3, #007df8, #00a1ff, #2dc1ff, #82deff);
-      border-bottom: 0;
-    }
-  
-  
   }
-  body {
-    overflow: hidden;
+  .front-end {
+    background-image: linear-gradient(to right bottom, #3452e3, #007df8, #00a1ff, #2dc1ff, #82deff);
+    border-bottom: 0;
   }
-  
+}
+body {
+  overflow: hidden;
+}

@@ -1,5 +1,5 @@
 import { action, computed, observable, runInAction } from "mobx";
-import { loginSuccessFull } from "../../application/actions/appAction";
+import { loginSuccessFull, getMenuHeader } from "../../application/actions/appAction";
 import store from '../../AppStore';
 import history from "../../history";
 import agent from "../api/agent";
@@ -28,6 +28,8 @@ export default class UserStore {
         this.rootStore.commonStore.setToken(user.token);
         this.rootStore.modalStore.closeModal();
         store.dispatch(loginSuccessFull(user));
+        
+
       }
       setTimeout(() => {
         history.push("/#/dashboard");
@@ -42,7 +44,7 @@ export default class UserStore {
   @action register = async (values: IUserFormValues) => {
     try {
       const user = await agent.User.register(values);
-      this.rootStore.commonStore.setToken(user.token);
+      this.rootStore.commonStore.setToken(user.token);      
       this.rootStore.modalStore.closeModal();
       history.push("/activities");
     } catch (error) {
@@ -51,9 +53,36 @@ export default class UserStore {
   };
 
   @action getUser = async () => {
+    const menuHeader = [
+      {
+        id: 1,
+        name:'Báo cáo',
+        icon: 'fas fa-briefcase',
+        routeDefault: "/bao-cao",
+        used: true,
+        domain: 'BaoCao'
+      },
+      {
+        id: 2,
+        name:'Phê duyệt',
+        icon: 'fas fa-thumbs-up',
+        routeDefault: "/phe-duyet",
+        used: true,
+        domain:'PheDuyet'
+      },
+      {
+        id: 3,
+        name: 'Quản trị',
+        icon: 'fas fa-tools',
+        routeDefault: "/quan-tri",
+        used: true,
+        domain:'QuanTri'
+      }
+    ]
     try {
       const user = await agent.User.current();
       store.dispatch(loginSuccessFull(user));
+      store.dispatch(getMenuHeader(menuHeader));
       runInAction(() => {
         this.user = user;
       });

@@ -1,0 +1,68 @@
+.body-full-screen {
+    height: calc(100% -1px);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+
+    .anticon-fullscreen {
+        margin-right: 0px !important;
+    }
+
+    .btn-full-screen {
+        .anticon-fullscreen {
+            margin-right: 0px !important;
+        }
+    }
+
+    .btn-full-screen:hover {
+        .ant-btn-custom {
+            background-color: #f1f1f1;
+        }
+
+        .btn-full-screen:hover {
+            .ant-btn-custom {
+                background-color: #f1f1f1;
+            }
+        }
+    }
+}
+
+.btn-download {
+    color: #fff;
+    background-color: #ff9233;
+    border-color: #ff9233;
+    &:hover {
+        color: #fff;
+        background: #bd6417;
+    }
+}
+
+.css-15k3avv {
+    z-index: 2 !important;
+}
+.top-detail{
+    display: flex;
+    .btn-download {
+        color: #2E7D32;
+        background-color: #fff;
+        border-color: #2E7D32;
+        display: flex;
+        padding: 3px 8px;
+        color: #2E7D32;
+        font-size: 12px;
+        line-height: 22px;
+        > i{
+            margin: 4px 6px 4px 0;
+            font-size: 16px;
+            color: #2E7D32;
+        }
+        &:hover {
+            color: #fff;
+            background: #2E7D32;
+            > i{
+                background-color: #2E7D32;
+                color: #fff;
+            }
+        }
+    }
+}
