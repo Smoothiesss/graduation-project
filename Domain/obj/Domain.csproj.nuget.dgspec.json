@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj": {}
+    "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj": {
+    "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\ngquo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

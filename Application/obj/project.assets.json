@@ -6443,11 +6443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\Application.csproj",
+      "projectUniqueName": "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\Application.csproj",
+      "projectPath": "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\ngquo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\obj\\",
+      "outputPath": "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6466,11 +6466,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj"
+            "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Persistence\\Persistence.csproj"
+            "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Persistence\\Persistence.csproj": {
+              "projectPath": "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Persistence\\Persistence.csproj"
             }
           }
         }

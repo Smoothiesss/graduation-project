@@ -6676,11 +6676,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\ngquo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Infrastructure\\obj\\",
+      "outputPath": "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6699,8 +6699,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\Application.csproj"
+            "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\Application.csproj": {
+              "projectPath": "c:\\Users\\ngquo\\Documents\\GitHub\\graduation-project\\Application\\Application.csproj"
             }
           }
         }
